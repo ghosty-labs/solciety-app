@@ -7,6 +7,7 @@ import {
   IconPuzzle,
   IconReply,
   IconSearch,
+  IconShare,
   IconTag,
   IconUser,
   IconUserPlus,
@@ -14,7 +15,7 @@ import {
 
 const Feature = () => {
   return (
-    <div className="max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto mt-40 px-4 md:px-0">
+    <div className="max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto mt-14 md:mt-80 px-4 md:px-0">
       <p className="text-2xl font-semibold">Features</p>
       <div className="md:grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-8">
         <div className="p-8 mb-6 border-2 border-solana-green rounded-xl">
@@ -130,6 +131,19 @@ const Feature = () => {
           <p className="mt-1 text-justify">
             Search feature simplifies finding post or topics on the Solciety for
             easy exploration and connection.
+          </p>
+        </div>
+        <div className="p-8 mb-6 border-2 border-solana-green rounded-xl">
+          <IconShare size={32} color="white" />
+          <p className="mt-4 font-bold">
+            Share Post{" "}
+            <span className="border-2 border-yellow-200 text-yellow-200 rounded-md text-[10px] text-semibold px-1 py-0.5 ml-2">
+              Upcoming
+            </span>
+          </p>
+          <p className="mt-1 text-justify">
+            Share post feature for quick content sharing on social media,
+            boosting your online interactions.
           </p>
         </div>
       </div>

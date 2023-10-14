@@ -9,3 +9,4 @@ export { default as IconUserPlus } from "./IconUserPlus";
 export { default as IconPuzzle } from "./IconPuzzle";
 export { default as IconCheckBadge } from "./IconCheckBadge";
 export { default as IconSearch } from "./IconSearch";
+export { default as IconShare } from "./IconShare";

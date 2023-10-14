@@ -14,9 +14,14 @@ const Nav = () => {
           />
         </div>
       </Link>
-      <button className="px-6 py-2 rounded-md font-semibold text-white bg-primary-black hover:bg-opacity-90 transition duration-200">
-        DEMO
-      </button>
+      <div className="flex">
+        <button className="px-6 py-2 rounded-md font-semibold text-white bg-primary-black hover:bg-opacity-90 transition duration-200">
+          Docs
+        </button>
+        <button className="px-6 py-2 rounded-md font-semibold text-white bg-primary-black hover:bg-opacity-90 transition duration-200">
+          FAQs
+        </button>
+      </div>
     </div>
   );
 };
