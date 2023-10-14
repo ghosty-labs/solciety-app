@@ -10,3 +10,5 @@ export { default as IconPuzzle } from "./IconPuzzle";
 export { default as IconCheckBadge } from "./IconCheckBadge";
 export { default as IconSearch } from "./IconSearch";
 export { default as IconShare } from "./IconShare";
+export { default as IconSquaresPlus } from "./IconSquaresPlus";
+export { default as IconGlobe } from "./IconGlobe";

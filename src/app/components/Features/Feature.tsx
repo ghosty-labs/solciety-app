@@ -2,12 +2,14 @@ import {
   IconBell,
   IconBellAlert,
   IconCheckBadge,
+  IconGlobe,
   IconPencil,
   IconPicture,
   IconPuzzle,
   IconReply,
   IconSearch,
   IconShare,
+  IconSquaresPlus,
   IconTag,
   IconUser,
   IconUserPlus,
@@ -136,7 +138,7 @@ const Feature = () => {
         <div className="p-8 mb-6 border-2 border-solana-green rounded-xl">
           <IconShare size={32} color="white" />
           <p className="mt-4 font-bold">
-            Share Post{" "}
+            Share Post
             <span className="border-2 border-yellow-200 text-yellow-200 rounded-md text-[10px] text-semibold px-1 py-0.5 ml-2">
               Upcoming
             </span>
@@ -144,6 +146,33 @@ const Feature = () => {
           <p className="mt-1 text-justify">
             Share post feature for quick content sharing on social media,
             boosting your online interactions.
+          </p>
+        </div>
+        <div className="p-8 mb-6 border-2 border-solana-green rounded-xl">
+          <IconSquaresPlus size={32} color="white" />
+          <p className="mt-4 font-bold">
+            NFT Collaborative
+            <span className="border-2 border-yellow-200 text-yellow-200 rounded-md text-[10px] text-semibold px-1 py-0.5 ml-2">
+              Upcoming
+            </span>
+          </p>
+          <p className="mt-1 text-justify">
+            NFT collaboration feature on Solciety allows users to create and own
+            unique digital assets together, fostering creative partnerships in
+            the Solana ecosystem.
+          </p>
+        </div>
+        <div className="p-8 mb-6 border-2 border-solana-green rounded-xl">
+          <IconGlobe size={32} color="white" />
+          <p className="mt-4 font-bold">
+            Web App
+            <span className="border-2 border-yellow-200 text-yellow-200 rounded-md text-[10px] text-semibold px-1 py-0.5 ml-2">
+              Upcoming
+            </span>
+          </p>
+          <p className="mt-1 text-justify">
+            Solciety is launching a web app for easy access to the Solana
+            ecosystem via your web browser.
           </p>
         </div>
       </div>

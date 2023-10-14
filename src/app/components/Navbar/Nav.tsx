@@ -15,10 +15,10 @@ const Nav = () => {
         </div>
       </Link>
       <div className="flex">
-        <button className="px-6 py-2 rounded-md font-semibold text-white bg-primary-black hover:bg-opacity-90 transition duration-200">
+        <button className="px-6 py-2 rounded-md font-semibold text-solana-green bg-primary-black hover:bg-opacity-90 transition duration-200">
           Docs
         </button>
-        <button className="px-6 py-2 rounded-md font-semibold text-white bg-primary-black hover:bg-opacity-90 transition duration-200">
+        <button className="px-6 py-2 rounded-md font-semibold text-solana-green bg-primary-black hover:bg-opacity-90 transition duration-200">
           FAQs
         </button>
       </div>
