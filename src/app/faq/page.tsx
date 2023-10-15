@@ -15,7 +15,7 @@ const FaqPage = () => {
       <div className="px-4 md:px-0 pt-4">
         <div className="max-w-2xl lg:max-w-4xl xl:max-w-7xl mx-auto">
           <Nav />
-          <div className="mt-10">
+          <div className="mt-10 px-4">
             <p className="text-center text-3xl font-semibold">
               Frequently Asked Questions
             </p>
