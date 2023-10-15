@@ -15,12 +15,20 @@ const Nav = () => {
         </div>
       </Link>
       <div className="flex">
-        <button className="px-6 py-2 rounded-md font-semibold text-solana-green bg-primary-black hover:bg-opacity-90 transition duration-200">
-          Docs
-        </button>
-        <button className="px-6 py-2 rounded-md font-semibold text-solana-green bg-primary-black hover:bg-opacity-90 transition duration-200">
-          FAQs
-        </button>
+        <Link
+          href={"https://ghostyhq.gitbook.io/solciety/"}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="px-6 py-2 rounded-md font-semibold text-solana-green bg-primary-black hover:bg-opacity-90 transition duration-200">
+            Docs
+          </button>
+        </Link>
+        <Link href={"/faq"}>
+          <button className="px-6 py-2 rounded-md font-semibold text-solana-green bg-primary-black hover:bg-opacity-90 transition duration-200">
+            FAQs
+          </button>
+        </Link>
       </div>
     </div>
   );
