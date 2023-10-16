@@ -15,7 +15,7 @@ const Hero = () => {
             />
           </div>
           <h1 className="hidden lg:block text-5xl font-bold">
-            Welcome to Solciety
+            Welcome to Solciety🎩
           </h1>
           <p className="text-xl mt-4 text-justify leading-relaxed">
             Solciety is a revolutionary decentralized social media platform
